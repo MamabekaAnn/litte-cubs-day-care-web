@@ -284,12 +284,4 @@ footer {
   display: inline-block;
 }
 
-.colorful-header {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  transform: rotate(-3deg); /* tilt left or right */
-    }
 
