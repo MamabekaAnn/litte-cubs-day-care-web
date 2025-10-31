@@ -307,5 +307,38 @@ footer {
   transform: rotate(6deg);
     }
 
+.colorful-header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.colorful-header span {
+  display: inline-block;
+  text-shadow: 0 0 8px rgba(255,255,255,0.7);
+  transition: transform 0.2s ease;
+}
+
+/* Zig-zag tilt effect */
+.colorful-header span:nth-child(odd) {
+  transform: rotate(-6deg);
+}
+
+.colorful-header span:nth-child(even) {
+  transform: rotate(6deg);
+}
+
+/* 🐻 Cub images styling */
+.cub-img {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  transform: rotate(8deg);
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
 
 
