@@ -284,4 +284,28 @@ footer {
   display: inline-block;
 }
 
+.colorful-header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.colorful-header span {
+  display: inline-block;
+  text-shadow: 0 0 8px rgba(255,255,255,0.7);
+  transition: transform 0.2s ease;
+}
+
+/* Zig-zag tilt pattern */
+.colorful-header span:nth-child(odd) {
+  transform: rotate(-6deg);
+}
+
+.colorful-header span:nth-child(even) {
+  transform: rotate(6deg);
+    }
+
+
 
