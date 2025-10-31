@@ -271,3 +271,17 @@ footer {
   100% { transform: translateY(0) translateX(0); }
 }
 
+.colorful-header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.colorful-header span {
+  text-shadow: 0 0 8px rgba(255,255,255,0.7);
+  display: inline-block;
+}
+
+
