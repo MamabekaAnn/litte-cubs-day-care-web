@@ -340,5 +340,24 @@ footer {
   border-radius: 50%;
 }
 
+.cub {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  animation: float 4s ease-in-out infinite;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.cub-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+.cub-left {
+  bottom: 20px;
+  left: 20px;
+}
+
 
 
