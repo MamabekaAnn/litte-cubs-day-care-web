@@ -359,6 +359,9 @@ footer {
   left: 20px;
 }
 
+html, body {
+  min-width: 1280px;
+  overflow-x: auto;
 
 
 
