@@ -375,3 +375,25 @@ html, body {
   min-width: 1200px;
   overflow-x: auto;
 }
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-img {
+  width: 70%; 
+  border-radius: 10px; 
+  transform: rotate(-10deg)
+}
+
+.about-text {
+  width: 60%; 
+}
+
+.about-text p {
+  text-align: left;
+}
