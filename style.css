@@ -397,3 +397,42 @@ html, body {
 .about-text p {
   text-align: left;
 }
+
+.uniforms-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.uniforms-text {
+  width: 55%;
+}
+
+.uniforms-images {
+  display: flex;
+  flex-direction: row; 
+  gap: 15px;
+  width: 40%; 
+  justify-content: flex-end;
+}
+
+.uniforms-img {
+  width: 55%; 
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.left-tilt {
+  transform: rotate(-8deg);
+}
+
+.right-tilt {
+  transform: rotate(8deg);
+}
+
+.uniforms-img:hover {
+  transform: rotate(0deg) scale(1.05);
+}
